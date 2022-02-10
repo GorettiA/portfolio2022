@@ -1,5 +1,7 @@
 import React from 'react';
 
 export default function Projects() {
-  return <div></div>;
+  return <div>
+    <h3>Projects go here</h3>
+  </div>;
 }
