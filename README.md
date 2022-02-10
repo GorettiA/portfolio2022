@@ -2,18 +2,11 @@
 
 **Current Tech Stack**
 
-HTML
-CSS
-JavaScript
-Node.js
-Express.js
-Knex.js
-MySQL
-React
-Redux and Redux Toolkit
-REST API's
-Supertest
-Jest
+HTML | CSS | Javascript
+Node.js | Express.js | Knex.js
+React | Redux Toolkit | REST API's
+MySQL | Supertest | Jest
+
 
 
 
