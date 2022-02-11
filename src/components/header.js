@@ -1,8 +1,8 @@
 import React from 'react';
+import logo from '../images/logo-neon-resized.png';
 
 export default function Header() {
   return <div className='header'>
-    <h1>Goretti Alani</h1>
-    <h2>Web Developer</h2>
+    <img className='logo'src={logo} alt='logo'/>    
   </div>;
 }

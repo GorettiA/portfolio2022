@@ -14,15 +14,42 @@ body{
   color: white;
 }
 
+.logo{
+  border: 1px solid white;
+  /* max-width: 100%; */
+  height: auto;
+  width: 45%;
+}
+
 .navbar{
+  border: 1px solid white;
   display: flex;
-  background-color: antiquewhite;
-  padding: 50px;
+  background-color: black;
+  padding: 30px;
+}
+
+.nav-link{
+  padding: 10px;
+  margin-right: 10px;
+  background-color: black;
+  border-radius: 2px;
+  border: none;
+  color: lightcyan;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .nav-link:hover{
-  background-color: #f1f1f1;
+  background-color: white;
   color: black;
+  box-shadow: 0 12px 16px 0 rgba(145, 50, 50, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 @media screen and (max-width: 768px){
