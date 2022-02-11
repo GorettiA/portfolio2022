@@ -1,4 +1,5 @@
 import React from 'react';
+import '../componentsCSS/navbar.css';
 
 export default function Navbar() {
   return <div className='navbar'>

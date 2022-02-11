@@ -1,0 +1,13 @@
+.header{
+    padding: 0;
+    text-align: center;
+    background: black;
+    color: white;
+  }
+  
+  .logo{
+    border: 1px solid white;
+    max-width: 100%;
+    max-height: fit-content;
+    width: 35%;
+  }

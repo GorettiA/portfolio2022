@@ -1,0 +1,20 @@
+.main-body{
+    border: 1px solid white;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .body-left{
+    border: 1px solid white;
+    flex: 30%;
+    background-color: black;
+    padding: 200px;
+  }
+  
+  .body-right{
+    border: 1px solid white;
+    flex: 70%;
+    background-color: black;
+    padding: 200px;
+  }
