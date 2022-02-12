@@ -8,6 +8,6 @@
   .logo{
     border: 1px solid white;
     max-width: 100%;
-    max-height: fit-content;
-    width: 35%;
+    max-height: 100%;
+    width: 50%;
   }

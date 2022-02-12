@@ -8,13 +8,13 @@
   .body-left{
     border: 1px solid white;
     flex: 30%;
-    background-color: black;
-    padding: 200px;
+    padding: 20px;
+    /* height: 500px; */
   }
   
   .body-right{
     border: 1px solid white;
     flex: 70%;
-    background-color: black;
-    padding: 200px;
+    padding: 20px;
+    height: 500px;
   }
