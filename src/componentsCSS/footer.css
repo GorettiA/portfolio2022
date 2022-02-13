@@ -6,3 +6,26 @@
     color: white;
     font-size: 20px;
   }
+
+  .home-link{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: none;
+    color: lightcyan;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 40px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .home-link:hover{ 
+    background-color: pink;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(145, 50, 50, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }

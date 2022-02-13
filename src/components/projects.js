@@ -1,13 +1,6 @@
 import React from 'react';
 import '../componentsCSS/projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faUser } from '@fortawesome/free-solid-svg-icons';
-
-
-const contact = <FontAwesomeIcon icon={faCoffee} />
-const user = <FontAwesomeIcon icon={faUser} />
-
-
+import { FaFileAlt } from 'react-icons/fa';
 
 
 export default function Projects() {
@@ -15,8 +8,8 @@ export default function Projects() {
     <div className='body-left'>
     <h2>Talofa Lava!</h2>
     <p>I'm a web developer based in Auckland, New Zealand</p>
-    <p>{contact}</p>
-    <p>{user}</p>
+    <p>I love to create web apps using ReactJS</p>
+    <p><FaFileAlt className='icon'/>Check out my resume</p>
     </div>
 
   <div className='body-right'>

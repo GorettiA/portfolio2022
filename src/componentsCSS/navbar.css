@@ -1,6 +1,6 @@
 .navbar{
     border: 1px solid white;
-    display: flex;
+    /* display: flex; */
     background-color: black;
     padding: 10px;
   }
@@ -22,8 +22,14 @@
     transition-duration: 0.4s;
   }
   
-  .nav-link:hover{
+  .nav-link:hover{ 
     background-color: pink;
-    color: black;
     box-shadow: 0 12px 16px 0 rgba(145, 50, 50, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .icon{
+    color: lightcyan;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
   }
