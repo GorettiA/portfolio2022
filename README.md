@@ -11,4 +11,4 @@ MySQL | Supertest | Jest
 
 - Kept things simple in order to get my portfolio out to recruiters asap. A basic responsive structure styled with pure CSS with the intention of adding to it later on down the track. Let's say it's a work in progress but you can view my projects past and present on here now.
 
-## Thanks for stopping by :)
+**Thanks for stopping by :)**
