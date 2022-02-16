@@ -24,6 +24,6 @@ export default function Footer() {
       </a>
     </li>
   </ul>
-  <p><small>&copy; 2022 Goretti Alani. All rights reserved.</small></p>
+  <p><small>&copy; 2022 Goretti Alani</small></p>
 </footer>
 }

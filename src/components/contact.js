@@ -8,7 +8,8 @@ export default function Contact() {
 		<div className="contact">
 			<h2>Let's Talanoa!</h2>
 
-			<p>I'm always keen to hear about Web Developer opportunities.</p>
+			<p>I'm keen to hear about any Web Development opportunities or ideas you might have so get in touch!
+			</p>
 
 			<p className="email">
 				<a className="button" href="mailto:gorettialani@gmail.com">Email Me</a>
