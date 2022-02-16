@@ -17,7 +17,7 @@ export default function Navbar() {
 					<a href="about.js">About</a>
 				</li>
 				<li>
-					<a href="#contact">
+					<a href="mailto:gorettialani@gmail.com">
 						<span className="fa-solid fa-envelope" aria-hidden="true"></span>
 						<span className="sr-only">Contact</span>
 					</a>
