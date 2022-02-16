@@ -1,11 +1,9 @@
 # My portfolio with projects from July 2021 to now
 
-**Current Tech Stack**
+**Tech Stack Used**
 
 HTML | CSS | Javascript
-Node.js | Express.js | Knex.js
-React | Redux Toolkit | REST API's
-MySQL | Supertest | Jest
+React | 
 
 ## Why I built my portfolio this way
 
