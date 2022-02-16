@@ -13,7 +13,7 @@
 }
 .name span {
   font-family: var(--sans);
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--aqua);
   display: block;
 }

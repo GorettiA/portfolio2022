@@ -13,8 +13,7 @@ export default function About() {
 			<p>I am of Pasifika descent and currently based in <a>Auckland, New Zealand.</a></p>
 
 			<p>
-				I'm a tech enthusiast, food lover and bookworm making the switch from a career in
-				customer service and tourism, and into the tech industry.
+				I'm a tech enthusiast, food lover and bookworm making the switch from a career in customer service and tourism, and into the tech industry.
 			</p>
 		</div>
 	);
