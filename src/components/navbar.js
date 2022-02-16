@@ -37,8 +37,7 @@ export default function Navbar() {
 				<li>
 					<a
 						className="button"
-						href="https://www.dropbox.com/s/3z2hm5gu3v2lrfy/JenKramerCV.pdf?dl=0"
-					>
+						href="https://drive.google.com/file/d/1AIiADYDipX6Afl8ISjAOX8GT2v6T0b-7/view?usp=sharing">
 						Resume
 					</a>
 				</li>
