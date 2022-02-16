@@ -7,7 +7,7 @@ export default function Navbar() {
 			<ul>
 				<li>
 					<h1>
-						<a href="index.html">Goretti</a>
+						<a href="index.html">Home</a>
 					</h1>
 				</li>
 				<li>

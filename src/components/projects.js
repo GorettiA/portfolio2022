@@ -15,11 +15,11 @@ export default function Projects() {
 						<p className="project-text">
 							<a href="https://trainee-jobs-dev.herokuapp.com/" target="_blank" rel="noreferrer">
 								Book A Rookie
-							</a>{' '}
+							</a>
 							is an ongoing project. What was originally pitched as a final group project idea at
 							Dev Academy has since morphed into a labour of love between friends. A full stack web
 							app for apprentices and fresh graduates to find work within their community in order
-							to gain experience in their chosen field. The work is paid through koha.{' '}
+							to gain experience in their chosen field. The work is paid through koha.
 						</p>
 						<h4>Technologies used include:</h4>
 						<ul>
@@ -40,10 +40,10 @@ export default function Projects() {
 						<p className="project-text">
 							<a href="https://donalds-dumb-doings.herokuapp.com/" target="_blank" rel="noreferrer">
 								Donald's Dumb Doings
-							</a>{' '}
+							</a>
 							was a project where we built a front end app to practice consuming external API's.
 							Working in pairs, this little project was how we spent an afternoon at Dev Academy.
-							Time flies when you're having fun. Heads up - some of the content might be NSFW!
+							Time flies when you're having fun! Oh heads up - some of the content might be NSFW!
 						</p>
 						<h4>Technologies used include:</h4>
 						<ul>
