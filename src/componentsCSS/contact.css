@@ -1,0 +1,38 @@
+/* contact section */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  /* generic styles for the page */
+.contact {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+
+.contact-container {
+    background-color: var(--plum);
+}
+  
+.email {
+    margin-top: 3rem;
+  }
+
+  .button {
+    background-color: var(--magenta);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: var(--mono);
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    color: var(--white);
+    background-color: var(--hotmag);
+  }
