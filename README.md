@@ -9,6 +9,8 @@ MySQL | Supertest | Jest
 
 ## Why I built my portfolio this way
 
-- Kept things simple in order to get my portfolio out to recruiters asap. A basic responsive structure styled with pure CSS with the intention of adding to it later on down the track. Let's say it's a work in progress but you can view my projects past and present on here now.
+- A responsive app styled with pure CSS with the intention of it being an on-going project. I chose not to use a CSS framework in order to grasp the basics of styling with pure CSS. It's a work in progress but you can view my projects past and present here now.
+
+- Shout out to Jen Kramer and Frontend Masters for the ace tutorial!
 
 **Thanks for stopping by :)**
