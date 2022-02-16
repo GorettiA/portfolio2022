@@ -1,35 +1,64 @@
-.navbar{
-    border: 1px solid white;
-    /* display: flex; */
-    background-color: black;
-    padding: 10px;
-  }
-  
-  .nav-link{
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 2px;
-    border: none;
-    color: lightcyan;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 40px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .nav-link:hover{ 
-    background-color: pink;
-    box-shadow: 0 12px 16px 0 rgba(145, 50, 50, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+/* navigation */
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
 
-  .icon{
-    color: lightcyan;
-    width: 100px;
-    height: 30px;
-    margin-left: auto;
+nav h1 a {
+  font-family: var(--sans);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--aqua);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover,
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
+
+.button {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
+@media (min-width: 850px){
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
   }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}

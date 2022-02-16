@@ -1,26 +1,46 @@
-*{
-  box-sizing: border-box;
-  background-color: black;
+:root {
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
 }
 
-body{
-  font-family: arial;
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* generic styles for the page */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+h1,
+h2,
+h3 {
   margin: 0;
 }
-
-@media screen and (max-width: 768px){
-  .navbar{
-    flex-direction: column;
-  }
+a {
+  color: var(--magenta);
 }
 
-@media screen and (max-width: 600px){
-  .navbar{
-    font-size: 10px;
-  }
-  .logo{
-    width: auto;
-  }
+a:hover {
+  color: var(--hotmag);
+  text-decoration: none;
 }
 
 
