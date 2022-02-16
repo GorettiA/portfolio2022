@@ -58,6 +58,10 @@
         grid-template-columns: repeat(10, 1fr);
         gap: 1rem;
     }
+    .projects {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
     .project-image {
         grid-column: 2/6;
         grid-row: 1/2;
@@ -65,7 +69,7 @@
     .description-container {
         order: 2;
         text-align: right;
-        grid-column: 5/11;
+        grid-column: 6/11;
         grid-row: 1/2;
     }
     .projects ul {
