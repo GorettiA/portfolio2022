@@ -7,14 +7,14 @@ export default function Navbar() {
 			<ul>
 				<li>
 					<h1>
-						<a href="index.html">Goretti Alani</a>
+						<a href="index.html">Goretti</a>
 					</h1>
 				</li>
 				<li>
-					<a href="#projects">Projects</a>
+					<a href="projects.js">Projects</a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.js">About</a>
 				</li>
 				<li>
 					<a href="#contact">
