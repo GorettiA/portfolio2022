@@ -37,7 +37,7 @@ export default function Navbar() {
 				<li>
 					<a
 						className="button"
-						href="https://drive.google.com/file/d/1AIiADYDipX6Afl8ISjAOX8GT2v6T0b-7/view?usp=sharing">
+						href="https://drive.google.com/file/d/1AIiADYDipX6Afl8ISjAOX8GT2v6T0b-7/view?usp=sharing" target="_blank" rel="noreferrer">
 						Resume
 					</a>
 				</li>
