@@ -23,13 +23,13 @@ export default function Navbar() {
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/jen4web/" target="_blank" rel="noreferrer">
+					<a href="https://www.linkedin.com/in/goretti-alani/" target="_blank" rel="noreferrer">
 						<span class="fa-brands fa-linkedin" aria-hidden="true"></span>
 						<span className="sr-only">LinkedIn</span>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.github.com/jen4web" target="_blank" rel="noreferrer">
+					<a href="https://www.github.com/GorettiA" target="_blank" rel="noreferrer">
 						<span class="fa-brands fa-github" aria-hidden="true"></span>
 						<span className="sr-only">Github</span>
 					</a>
