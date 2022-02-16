@@ -10,8 +10,7 @@ export default function About() {
 
 <p>Currently based in Auckland, New Zealand.</p>
 
-<p>I'm a tech enthusiast who loves food and I'm switching
+<p>I'm a tech enthusiast, food lover and a bookworm making the switch
   from a career in hospitality and tourism, and into the <a>tech industry.</a></p>
-
   </div>
 }

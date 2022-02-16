@@ -2,7 +2,7 @@ import React from 'react';
 import '../componentsCSS/footer.css';
 
 export default function Footer() {
-  return <footer>
+  return <footer> 
   <h2>Goretti Alani &middot; Web Developer</h2>
   <ul>
     <li>

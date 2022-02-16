@@ -1,5 +1,5 @@
 :root {
-  --black: #171321;
+  --black: #000000;
   --dkblue: #0d314b;
   --plum: #4b0d49;
   --hotmag: #ff17e4;
@@ -42,6 +42,7 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+
 
 
 

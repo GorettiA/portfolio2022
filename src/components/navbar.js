@@ -42,6 +42,7 @@ export default function Navbar() {
 					</a>
 				</li>
 			</ul>
+			<div className="gradient-nav"></div>
 		</nav>
 	);
 }

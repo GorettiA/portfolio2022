@@ -62,3 +62,9 @@ nav [class*="fa-"]:hover {
     margin-right: auto;
   }
 }
+
+.gradient-nav {
+  background: radial-gradient(circle, rgba(230,61,214,1) 0%, rgba(70,252,250,1) 100%);
+  height: 2px;
+  margin-top: 15px;
+}
