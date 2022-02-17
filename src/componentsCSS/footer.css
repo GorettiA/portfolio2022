@@ -1,17 +1,17 @@
 /* footer section */
 footer {
   text-align: center;
-  padding: 4rem 0;
+  padding: 1rem 0;
 }
 
 footer ul {
   list-style-type: none;
   padding: 0;
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
   font-size: 3rem;
 }
 

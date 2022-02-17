@@ -4,8 +4,7 @@ import logo from '../images/logo-neon-resized.png';
 import Avatar from '../images/avatar.jpg';
 
 export default function Header() {
-  return <div className='header'>
-    
-    <img className='avatar'src={Avatar} alt='logo'/>   
+  return <div className='header'>  
+    <img className='avatar'src={Avatar} alt='goretti'/>   
   </div>;
 }

@@ -8,7 +8,7 @@ export default function Navbar() {
 			<ul>
 				<li>
 					<h1>
-					<img className="logo"src={logo} alt="me"></img>
+					<img className="logo"src={logo} alt="goretti"></img>
 						{/* <a href="index.html">Home</a> */}
 					</h1>
 				</li>
