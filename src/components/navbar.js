@@ -1,5 +1,6 @@
 import React from 'react';
 import '../componentsCSS/navbar.css';
+import logo from '../images/logo-neon-resized.png';
 
 export default function Navbar() {
 	return (
@@ -7,7 +8,8 @@ export default function Navbar() {
 			<ul>
 				<li>
 					<h1>
-						<a href="index.html">Home</a>
+					<img className="logo"src={logo} alt="me"></img>
+						{/* <a href="index.html">Home</a> */}
 					</h1>
 				</li>
 				<li>

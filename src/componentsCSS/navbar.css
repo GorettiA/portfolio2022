@@ -1,4 +1,14 @@
 /* navigation */
+
+.avatar {
+  width: 310px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px 10px 0px 0px;
+  
+}
+
+
 nav {
   font-family: var(--mono);
   font-size: 80%;
