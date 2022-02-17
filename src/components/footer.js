@@ -1,9 +1,10 @@
 import React from 'react';
 import '../componentsCSS/footer.css';
+import logo from '../images/logo-neon-resized.png';
 
 export default function Footer() {
   return <footer> 
-  <h2>Goretti Alani &middot; Web Developer</h2>
+  <img className='footer-logo'src={logo} alt='logo'/>   
   <ul>
     <li>
       <a href="https://www.linkedin.com/in/goretti-alani" target="_blank" rel="noreferrer">
