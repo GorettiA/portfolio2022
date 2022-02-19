@@ -1,6 +1,6 @@
 import React from 'react';
 import '../componentsCSS/projects.css';
-import Rookie from '../images/version3.png';
+import Rookie from '../images/resized-rookie.png';
 import Donald from '../images/donaldAPI.jpg';
 import MissionX from '../images/mission-x.jpg';
 
@@ -50,7 +50,7 @@ export default function Projects() {
 						<ul>
 							<li>ReactJS</li>
 							<li>API's</li>
-							<li>Webpack</li>
+							<li>Express.js</li>
 							<li>Heroku</li>
 						</ul>
 					</div>
