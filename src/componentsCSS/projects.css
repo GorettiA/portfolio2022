@@ -50,8 +50,6 @@
     margin: 0 auto;
 }
 
-
-
 @media (min-width: 550px){
     article {
         display: grid;

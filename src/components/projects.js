@@ -2,6 +2,7 @@ import React from 'react';
 import '../componentsCSS/projects.css';
 import Rookie from '../images/version3.png';
 import Donald from '../images/donaldAPI.jpg';
+import MissionX from '../images/mission-x.jpg';
 
 export default function Projects() {
 	return (
@@ -48,11 +49,37 @@ export default function Projects() {
 						<h4>Technologies used include:</h4>
 						<ul>
 							<li>ReactJS</li>
+							<li>API's</li>
 							<li>Webpack</li>
 							<li>Heroku</li>
 						</ul>
 					</div>
 					<img className="project-image" src={Donald} alt="DDD." />
+				</article>
+
+				<article>
+					<div className="description-container">
+						<h4>Mission Ready HQ Project</h4>
+						<h3>Mission X</h3>
+						<p className="project-text">
+							<a href="x" target="_blank" rel="noreferrer">
+								Mission X
+							</a>{' '}	
+							was our final group project at Mission Ready HQ. It is a full stack app aimed at helping to make 
+							coding a fun learning experience for children. I worked on the login page, and was the team's
+							database administrator. Styling was done using Material UI.
+						</p>
+						<h4>Technologies used include:</h4>
+						<ul>
+							<li>ReactJS</li>
+							<li>Material UI</li>
+							<li>Node JS</li>
+							<li>Express JS</li>
+							<li>MySQL</li>
+							<li>AWS</li>
+						</ul>
+					</div>
+					<img className="project-image" src={MissionX} alt="mission-x." />
 				</article>
 			</div>
 		</div>
