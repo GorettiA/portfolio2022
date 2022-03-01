@@ -3,6 +3,7 @@ import '../componentsCSS/projects.css';
 import Rookie from '../images/resized-rookie.png';
 import Donald from '../images/donaldAPI.jpg';
 import MissionX from '../images/mission-x.jpg';
+import Calculator from '../images/calculator.jpg';
 
 export default function Projects() {
 	return (
@@ -28,7 +29,7 @@ export default function Projects() {
 							<li>Redux Toolkit</li>
 							<li>Knex</li>
 							<li>CI/CD</li>
-							<li>Heroku</li>
+							<li>Auth0</li>
 						</ul>
 					</div>
 					<img className="project-image" src={Rookie} alt="Trainee Jobs." />
@@ -81,6 +82,31 @@ export default function Projects() {
 					</div>
 					<img className="project-image" src={MissionX} alt="mission-x." />
 				</article>
+
+				<article>
+					<div className="description-container">
+						<h4>Solo Project</h4>
+						<h3>A Calculator</h3>
+						<p className="project-text">
+							<a href="https://goretti-reactjs-calculator.herokuapp.com/" target="_blank" rel="noreferrer">
+								A Calculator
+							</a>{' '}	
+							was a solo project I built using ReactJS and state manaagement with React Redux. 
+							It was a code along with an amazing tutorial on YouTube and I enjoyed it because it 
+							meant I got to practice JS - specifically switch statements. Also I practiced how to
+							layout using CSS grid. Also let's face it - is it even a portfolio if you don't have a JS calculator?
+						</p>
+						<h4>Technologies used include:</h4>
+						<ul>
+							<li>ReactJS</li>
+							<li>Redux</li>
+							<li>CSS</li>
+							<li>Heroku</li>
+						</ul>
+					</div>
+					<img className="project-image" src={Calculator} alt="calculator" />
+				</article>
+
 			</div>
 		</div>
 	);
